@@ -78,4 +78,17 @@ function setupOrderForm() {
     });
 }
 
+// About page setup (about.html)
+function setupAboutPage() {
+    const team = document.querySelector('.team-member');
+    
+    if (team) {
+        // Simple fade in effect
+        team.style.opacity = '0';
+        setTimeout(() => {
+            team.style.opacity = '1';
+            team.style.transition = 'opacity 1s';
+        }, 500);
+    }
+
 
