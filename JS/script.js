@@ -77,6 +77,3 @@ function setupOrderForm() {
         localStorage.removeItem('selectedCar'); // Clear saved car
     });
 }
-
-
-
